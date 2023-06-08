@@ -1,0 +1,173 @@
+html,body{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    box-sizing: border-box;
+  
+  }
+  
+  
+  body{
+  
+      width: 100%;
+      height: 100%;
+      letter-spacing:  0.03em; ;
+      line-height: 1.6;
+      background-color: rgb(0, 16, 18);
+      background-image: url("../img/egor-myznik-tHGIV1GIutY-unsplash.jpg");
+      backdrop-filter:blur(5px);
+      background-size: cover;
+      background-repeat: no-repeat;
+     
+       
+  }
+  
+  @font-face {
+    font-family: 'MiFuente';
+    src: url("../fuentes/LexendZetta-VariableFont_wght.ttf");
+  }
+  @font-face {
+    font-family: 'MiFuente2';
+    src: url("../fuentes/Kameron-Regular.ttf");
+  }
+  @font-face {
+    font-family: 'CinzelR';
+    src: url("../fuentes/Cinzel-Regular.otf");
+  }
+  @font-face {
+    font-family: 'CinzelD';
+    src: url("../fuentes/CinzelDecorative-Regular.otf");
+  }
+  @font-face {
+    font-family: 'Louis';
+    src: url("../fuentes/Louis George Cafe.ttf");
+  }
+  @font-face {
+    font-family: 'LouisL';
+    src: url("../fuentes/Louis George Cafe Light.ttf");
+  }@font-face {
+    font-family: 'Lemmon';
+    src: url("../fuentes/LEMONMILK-Regular.otf");
+  }
+  @font-face {
+    font-family: 'Wish';
+    src: url("../fuentes/WishShore.ttf");
+  }
+
+  .content{
+    display: grid;
+      
+        
+        grid-template-columns: 1fr 760px;
+        grid-gap: 130px;
+        grid-area: 100px;
+        
+ 
+  }
+
+
+  
+  .title{
+  
+      font-family:'CinzelR';
+      
+      color: #FFFFFF;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      background: black;
+      padding:10px;
+      text-align: center; 
+      margin-top: 0%; 
+      margin-bottom: 0%;
+      letter-spacing: 5px;
+  }
+
+  .subtitle{
+    font-family:'CinzelR';
+      
+      color: #dfdfdf;
+      font-style: normal;
+      font-weight: 800px;
+      font-size: 30px;
+      padding: 0px;
+      text-align: center; 
+      margin-top: 0px; 
+      margin-bottom: 2px;
+      margin-right: 100px;
+      letter-spacing: 5px;
+  }
+
+  .information{
+    font-family: 'Louis';
+    font-style: bold;
+    font-size: 22px;
+    font-weight: 500px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 90px;
+  
+    color:#dfdfdf;
+  }
+
+ 
+
+ 
+
+  .button {
+    font-family:'Louis';
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #c1710067;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  h6{
+    font-family: 'MiFuente2';
+    color: #000000;
+    padding: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  
+  
+  }
